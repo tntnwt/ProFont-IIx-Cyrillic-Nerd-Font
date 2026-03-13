@@ -21,18 +21,19 @@ Linux:
 
 Then update font cache:
 
-$ fc-cache -fv
+`fc-cache -fv`
 
 ## Installation in the terminal
 
 I couldn't install this font in my Kitty terminal. It probably didn't recognize it as monospaced. Here's how I fixed it.
 
-$ mkdir -p ~/.config/fontconfig/conf.d
+`mkdir -p ~/.config/fontconfig/conf.d`
 
 Place the '99-profont-mono.conf' file inside conf.d/
+
 Then
 
-$ fc-cache -fv
+`fc-cache -fv`
 
 ## Sources
 
